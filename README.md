@@ -1,2 +1,3 @@
-# To Do List menggunakan React.js dan Redux
-### Demo App: https://todolist-dadereindraf.netlify.app/
+# Front End Web Dev Stage
+# Technical Project Assignment (TPA) #5 - Todo List App with React.js & Redux
+
