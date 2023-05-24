@@ -109,6 +109,7 @@ form .btn-submit:hover {
   margin-bottom: 20px;
   border: 2px solid #ccc;
   border-radius: 10px;
+  overflow:auto;
   padding: 20px;
   width: 400px;
   border-bottom: 3px solid #00adb5;
@@ -212,8 +213,39 @@ p {
   font-weight: 300;
 }
 
-@media screen and (max-width: 800px){
-  .data-wrap{
-    width: 400px;
+@media screen and (max-width: 400px){
+  
+  .form-container {
+    width: auto;
+  }
+
+  .form-wrapper, .data-wrap{
+    width: 300px;
+  }
+
+  .form-edit {
+    width: 150px;
+  }
+
+  form input[type="text"] {
+    font-size: 12px;
+  }
+
+  span {
+    font-size: 14px;
+  }
+
+  .form-edit input[type="text"] {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    border-bottom: 3px solid #016064;
+  }
+
+  .btn-save {
+   padding: 6px 8px;
+   font-size: 12px;
   }
 }
