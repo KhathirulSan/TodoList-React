@@ -215,16 +215,16 @@ p {
 
 @media screen and (max-width: 400px){
   
-  .form-container {
-    width: auto;
+  form {
+    width: 350px;
   }
 
   .form-wrapper, .data-wrap{
-    width: 300px;
+    width: 280px;
   }
 
   .form-edit {
-    width: 150px;
+    width: 280px;
   }
 
   form input[type="text"] {
