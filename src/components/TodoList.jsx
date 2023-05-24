@@ -64,7 +64,7 @@ function TodoList() {
           <form onSubmit={handleAddSubmit}>
             <input
               type="text"
-              placeholder="Masukkan Kegiatan Anda Disini ..."
+              placeholder="Masukkan Kegiatan Anda ..."
               value={addTodoInput}
               onChange={(e) => setAddTodoInput(e.target.value)}
               required
