@@ -216,8 +216,12 @@ p {
 @media screen and (max-width: 400px){
   
   form {
-    width: 350px;
+    width: 320px;
   }
+
+  form input::placeholder {
+    font-size: 12px;
+  }p
 
   .form-wrapper, .data-wrap{
     width: 280px;
@@ -227,10 +231,6 @@ p {
     width: 280px;
   }
 
-  form input[type="text"] {
-    font-size: 12px;
-  }
-
   span {
     font-size: 14px;
   }
@@ -238,8 +238,9 @@ p {
   .form-edit input[type="text"] {
     padding: 10px 20px;
     border: 1px solid #ccc;
+    color: red;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 1rem;
     font-weight: 500;
     border-bottom: 3px solid #016064;
   }
