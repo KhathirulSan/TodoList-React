@@ -225,6 +225,7 @@ p {
 
   .form-wrapper, .data-wrap{
     width: 280px;
+    background-color: #FFFFFF;
   }
 
   .form-edit {
