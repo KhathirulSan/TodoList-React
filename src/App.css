@@ -102,7 +102,7 @@ form .btn-submit:hover {
  
 }
 
-.data-wrap {
+.todo-wrap {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -117,9 +117,6 @@ form .btn-submit:hover {
   
 }
 
-.btn-wrapper{
-  margin-left: auto;
-}
 
 input[type="checkbox"] {
   margin-right: 20px;
@@ -132,6 +129,7 @@ input[type="checkbox"] {
 }
 
 .btn-wrapper{
+  margin-left: auto;
   display: flex;
   text-align: right;
   justify-content: flex-end;
@@ -223,7 +221,7 @@ p {
     font-size: 12px;
   }p
 
-  .form-wrapper, .data-wrap{
+  .form-wrapper, .todo-wrap{
     width: 280px;
     background-color: #FFFFFF;
   }

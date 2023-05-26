@@ -93,15 +93,13 @@ function TodoList() {
             </button>
           </div>
 
-          <div className="form-wrapperr">
+          <div className="form-wrapper">
             {filteredTodos.length > 0 ? (
               filteredTodos.map((item) => (
-                <div key={item.id} className="data-wrap">
+                <div key={item.id} className="todo-wrap">
                   <input
                     type="checkbox"
                     checked={item.isDone}
-                    id="check5"
-                    className="check"
                     onChange={() => handleComplete(item.id, item.isDone)}
                   />
 
@@ -117,7 +115,7 @@ function TodoList() {
                       <button className="btn-save">Simpan</button>
                     </form>
                   ) : (
-                    <>
+                  <>
                       <span
                         style={{
                           textDecoration: item.isDone ? "line-through" : "none",
