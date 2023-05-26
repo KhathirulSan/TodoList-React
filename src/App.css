@@ -237,7 +237,7 @@ p {
   .form-edit input[type="text"] {
     padding: 10px ;
     border: 1px solid #ccc;
-    color: red;
+    color: #323232;
     border-radius: 5px;
     font-size: 1rem;
     font-weight: 500;
